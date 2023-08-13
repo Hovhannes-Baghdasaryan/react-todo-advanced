@@ -1,0 +1,46 @@
+@import 'styles/colors.scss';
+@import 'styles/typography.scss';
+
+.container {
+  &__title {
+    margin: 0;
+    @extend %micro-sb;
+    text-transform: capitalize;
+  }
+
+  &__description {
+    @extend %body1-lt;
+    color: $primary-1900;
+    text-transform: capitalize;
+  }
+}
+
+.success {
+  path {
+    fill: $success-75;
+  }
+}
+
+.error {
+  path {
+    fill: $error-75;
+  }
+}
+
+.warning {
+  path {
+    fill: $warning-75;
+  }
+}
+
+.info {
+  path {
+    fill: $info-75;
+  }
+}
+
+.comming_soon {
+  path {
+    fill: $warning-75;
+  }
+}

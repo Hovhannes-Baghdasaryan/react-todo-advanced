@@ -1,0 +1,6 @@
+@import 'styles/vars';
+
+.wrapper {
+  width: 100%;
+  @extend %flex-center;
+}

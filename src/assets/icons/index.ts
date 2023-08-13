@@ -1,0 +1,6 @@
+export { ReactComponent as CloseIcon } from './close.svg'
+export { ReactComponent as WarningIcon } from './warning.svg'
+export { ReactComponent as ErrorIcon } from './error.svg'
+export { ReactComponent as InfoIcon } from './info.svg'
+export { ReactComponent as TickPrimaryIcon } from './tick.svg'
+export { ReactComponent as ChevronIcon } from './chevron.svg'
